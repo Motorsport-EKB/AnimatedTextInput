@@ -555,7 +555,7 @@ public protocol TextInput {
     var font: UIFont? { get set }
     var textColor: UIColor? { get set }
     var textAttributes: [NSAttributedStringKey: Any]? { get set }
-    weak var textInputDelegate: TextInputDelegate? { get set }
+    var textInputDelegate: TextInputDelegate? { get set }
     var currentSelectedTextRange: UITextRange? { get set }
     var currentBeginningOfDocument: UITextPosition? { get }
     var contentInset: UIEdgeInsets { get set }
