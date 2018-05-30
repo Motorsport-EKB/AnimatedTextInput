@@ -10,7 +10,7 @@ final public class AnimatedTextField: UITextField {
     }
 
     fileprivate let defaultPadding: CGFloat = -16
-    fileprivate let clearButtonPadding: CGFloat = -8
+    fileprivate let clearButtonPadding: CGFloat = 0
 
     var rightViewPadding: CGFloat
     weak public var textInputDelegate: TextInputDelegate?

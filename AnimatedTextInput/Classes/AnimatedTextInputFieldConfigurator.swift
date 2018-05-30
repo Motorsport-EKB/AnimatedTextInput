@@ -36,7 +36,7 @@ fileprivate struct AnimatedTextInputTextConfigurator {
 
     static func generate() -> TextInput {
         let textField = AnimatedTextField()
-        textField.clearButtonMode = .whileEditing
+        textField.clearButtonMode = .never
         textField.autocorrectionType = .no
         return textField
     }
@@ -46,7 +46,7 @@ fileprivate struct AnimatedTextInputEmailConfigurator {
 
     static func generate() -> TextInput {
         let textField = AnimatedTextField()
-        textField.clearButtonMode = .whileEditing
+        textField.clearButtonMode = .never
         textField.keyboardType = .emailAddress
         textField.autocorrectionType = .no
         textField.autocapitalizationType = .none
@@ -84,7 +84,7 @@ fileprivate struct AnimatedTextInputNumericConfigurator {
 
     static func generate() -> TextInput {
         let textField = AnimatedTextField()
-        textField.clearButtonMode = .whileEditing
+        textField.clearButtonMode = .never
         textField.keyboardType = .decimalPad
         textField.autocorrectionType = .no
         return textField
