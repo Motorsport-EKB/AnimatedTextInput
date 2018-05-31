@@ -394,9 +394,9 @@ open class AnimatedTextInput: UIControl {
         isResigningResponder = false
         counterLabel.textColor = style.inactiveColor
 
-        if let textInputError = textInput as? TextInputError {
-            textInputError.removeErrorHintMessage()
-        }
+//        if let textInputError = textInput as? TextInputError {
+//            textInputError.removeErrorHintMessage()
+//        }
 
         // If the placeholder is showing an error we want to keep this state. Otherwise revert to inactive state.
         if placeholderErrorText == nil {
