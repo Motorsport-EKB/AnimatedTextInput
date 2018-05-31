@@ -9,7 +9,7 @@ final public class AnimatedTextField: UITextField {
         case selection
     }
 
-    fileprivate let defaultPadding: CGFloat = -16
+    fileprivate let defaultPadding: CGFloat = 0
     fileprivate let clearButtonPadding: CGFloat = 0
 
     var rightViewPadding: CGFloat
